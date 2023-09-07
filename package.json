@@ -1,0 +1,21 @@
+{
+  "name": "whois",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "pm-start": "pm2 start npm --name whois -i 1 -- start && pm2 save",
+    "pm-stop": "pm2 stop whois && pm2 save",
+    "pm-stopdel": "pm2 stop whois && pm2 delete appstore && pm2 save"
+  },
+  "author": "feyi-tech",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "whois-json": "^2.0.4"
+  }
+}
