@@ -42,7 +42,7 @@ app.post('/check', (req, res) => {
         tld: "com",
         isAvailable: true,
         isPremium: true,
-        premiumPrice: "1,200",
+        premiumPrice: "1,199",
         description: "A domain name ideal for software development company.",
         sponsoredLink: "https://www.namecheap.com/domains/registration/results/?domain=softbaker.com"
     },
@@ -51,7 +51,7 @@ app.post('/check', (req, res) => {
         tld: "com",
         isAvailable: true,
         isPremium: true,
-        premiumPrice: "3000",
+        premiumPrice: "3999",
         description: "A domain name ideal for a gaming platform. Imagine a game where players can click one of two buttons to tug their money left or right. The higher the amount you deposit on the side you support, the higher the chance of the side winning with you at the end of the game. Money is the strength needed in this game. The side that has the most strength wins, and shares the strength of the other side according to the strength each member of the winning side supplied during the game.",
         sponsoredLink: "https://www.namecheap.com/domains/registration/results/?domain=tugofcash.com"
     },
@@ -60,7 +60,7 @@ app.post('/check', (req, res) => {
         tld: "com",
         isAvailable: true,
         isPremium: true,
-        premiumPrice: "300",
+        premiumPrice: "299",
         description: "A domain name ideal for a platform where people urgently find the nearest experts around them. Such as urgently getting the nearest, one of the best mechanic by ratings for a suddenly broken car in a town you don't now.",
         sponsoredLink: "https://www.namecheap.com/domains/registration/results/?domain=meetofflinenow.com"
     }
